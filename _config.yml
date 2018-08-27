@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-github-metadata
 github : [metadata]
-repository: gitblog
+repository: shouaya/gitblog
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
