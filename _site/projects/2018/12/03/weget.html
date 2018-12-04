@@ -3,17 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>shouayaのprojects | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>minitest | shouayaのprojects</title>
 <meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="shouayaのprojects" />
+<meta property="og:title" content="minitest" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
+<link rel="canonical" href="http://localhost:4000/projects/2018/12/03/weget.html" />
+<meta property="og:url" content="http://localhost:4000/projects/2018/12/03/weget.html" />
 <meta property="og:site_name" content="shouayaのprojects" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-12-03T10:38:42+09:00" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/404.html","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"shouayaのprojects","@type":"WebPage","@context":"http://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/2018/12/03/weget.html"},"url":"http://localhost:4000/projects/2018/12/03/weget.html","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"minitest","@type":"BlogPosting","dateModified":"2018-12-03T10:38:42+09:00","datePublished":"2018-12-03T10:38:42+09:00","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="shouayaのprojects" /></head>
 <body><header class="site-header" role="banner">
@@ -33,26 +35,54 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="container">
-  <h1>404</h1>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">minitest</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-12-03T10:38:42+09:00" itemprop="datePublished">Dec 3, 2018
+      </time></p>
+  </header>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="https://s3-ap-northeast-1.amazonaws.com/ms17222/step/Original_without_effects_204x75.png" alt="" /></p>
+
+<h1 id="a-human-like-page-test-tool">A Human Like Page Test Tool</h1>
+
+<p>how to package:</p>
+<blockquote>
+  <p>mvn package</p>
+</blockquote>
+
+<p>how to run:</p>
+<blockquote>
+  <p>create execute.bat</p>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rd /s /q "reports"
+del "log.txt"
+mkdir "reports"
+java -jar minitest.jar http://demo.com chromedriver.exe testdata.xls &gt;&gt; log.txt
+</code></pre></div></div>
+
+<p>run execute.bat</p>
+
+<h2 id="screenshots">Screenshots</h2>
+
+<h4 id="test-command">test command</h4>
+<p><img src="https://s3-ap-northeast-1.amazonaws.com/ms17222/1111.PNG?dl=1" alt="" /></p>
+
+<h4 id="test-step">test step</h4>
+<p><img src="https://s3-ap-northeast-1.amazonaws.com/ms17222/2222.PNG?dl=1" alt="" /></p>
+
+<h4 id="test-data">test data</h4>
+<p><img src="https://s3-ap-northeast-1.amazonaws.com/ms17222/3333.PNG?dl=1" alt="" /></p>
+
+<h4 id="test-demo">test demo</h4>
+<p><img src="https://s3-ap-northeast-1.amazonaws.com/ms17222/14821195807pBQOTVDE8ELYXv1482119576.gif?dl=1" alt="" /></p>
+
+  </div><a class="u-url" href="/projects/2018/12/03/weget.html" hidden></a>
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
